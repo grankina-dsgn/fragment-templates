@@ -429,5 +429,96 @@
         "placeholder": "BUT THERE IS A GOOD IN EVERY DAY"
       }
     ]
+  },
+  {
+    "id": "fancy_share_11",
+    "type": "fancy_share",
+    "name": "Postcard",
+    "isPro": true,
+    "published": true,
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "background": {
+      "color": "#FFFFFF",
+      "imageAsset": "T11Background",
+      "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T11Background.png"
+    },
+    "originalPhoto": {
+      "x": 536,
+      "y": 479,
+      "width": 1181,
+      "height": 1109,
+      "rotation": 2.07
+    },
+    "stamp": {
+      "x": 956,
+      "y": 1251,
+      "maxWidth": 118,
+      "maxHeight": 155,
+      "rotation": 6.56,
+      "shadowOffsetX": 1,
+      "shadowOffsetY": 2,
+      "shadowOpacity": 0.06,
+      "showOutline": true
+    },
+    "elements": [
+      {
+        "type": "image",
+        "imageAsset": "T11Divider",
+        "x": 527,
+        "y": 1409,
+        "width": 2,
+        "height": 531,
+        "rotation": 2.07,
+        "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T11Divider.svg"
+      },
+      {
+        "type": "image",
+        "imageAsset": "T11RoundStamp",
+        "x": 847,
+        "y": 1249,
+        "width": 130,
+        "height": 130,
+        "rotation": 22.07,
+        "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T11RoundStamp.svg"
+      },
+      {
+        "type": "image",
+        "imageAsset": "T11FragmentLabel",
+        "x": 866,
+        "y": 1148,
+        "width": 127,
+        "height": 46,
+        "rotation": -7,
+        "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T11FragmentLabel.svg"
+      },
+      {
+        "type": "image",
+        "imageAsset": "T11AddressLines",
+        "x": 805,
+        "y": 1551,
+        "width": 410,
+        "height": 131,
+        "rotation": 2.07,
+        "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T11AddressLines.svg"
+      },
+      {
+        "type": "text",
+        "content": "Gracci Bella\nSee you...\n\nxx-",
+        "x": 288,
+        "y": 1401,
+        "width": 479,
+        "font": "JustMeAgainDownHere",
+        "altFont": "Caveat-Regular",
+        "fontSize": 96,
+        "color": "#262626",
+        "textAlign": "center",
+        "lineHeight": 0.8,
+        "rotation": -3.13,
+        "editable": true,
+        "editKey": "note",
+        "placeholder": "Gracci Bella\nSee you...\n\nxx-"
+      }
+    ]
   }
 ]
