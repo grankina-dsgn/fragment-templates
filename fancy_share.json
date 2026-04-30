@@ -1,0 +1,340 @@
+[
+  {
+    "id": "fancy_share_01",
+    "type": "fancy_share",
+    "name": "Classic Postmark",
+    "isPro": false,
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "background": { "color": "#FFFFFF" },
+    "stamp": {
+      "x": 541, "y": 906,
+      "maxWidth": 636, "maxHeight": 834,
+      "rotation": -2,
+      "shadowOffsetX": 1, "shadowOffsetY": 3
+    },
+    "elements": [
+      {
+        "type": "image",
+        "imageAsset": "T1BadgeBorders",
+        "x": 305, "y": 357,
+        "width": 282, "height": 102,
+        "rotation": -5
+      },
+      {
+        "type": "group",
+        "layout": "zstack",
+        "x": 175, "y": 545,
+        "width": 191, "height": 191,
+        "rotation": 20,
+        "children": [
+          {
+            "type": "image",
+            "imageAsset": "T1StampBorder",
+            "x": 0, "y": 0,
+            "width": 191, "height": 191
+          },
+          {
+            "type": "image",
+            "imageAsset": "T1FragmentArc",
+            "x": 0, "y": 0,
+            "width": 150, "height": 70,
+            "offsetY": -42
+          },
+          {
+            "type": "image",
+            "imageAsset": "T1MemoriesArc",
+            "x": 0, "y": 0,
+            "width": 150, "height": 70,
+            "offsetY": 42
+          },
+          {
+            "type": "text",
+            "content": "{{month}}",
+            "x": 0, "y": 0,
+            "offsetY": -8,
+            "font": "JetBrainsMono",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "color": "#4E4E4E"
+          },
+          {
+            "type": "text",
+            "content": "{{day}}",
+            "x": 0, "y": 0,
+            "offsetY": 10,
+            "font": "JetBrainsMono",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "color": "#4E4E4E"
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "imageAsset": "T1FragmentTitle",
+        "x": 861, "y": 1670,
+        "width": 211
+      },
+      {
+        "type": "image",
+        "imageAsset": "T1MetaTextLeft",
+        "x": 219, "y": 1821,
+        "width": 274
+      },
+      {
+        "type": "group",
+        "layout": "vstack",
+        "alignment": "leading",
+        "x": 855, "y": 1810,
+        "spacing": 2,
+        "children": [
+          {
+            "type": "text",
+            "content": "JOIN_THE_SYSTEM",
+            "x": 0, "y": 0,
+            "font": "JetBrainsMono",
+            "fontSize": 21,
+            "color": "#2D2D2DB3"
+          },
+          {
+            "type": "text",
+            "content": "@FRAGMENT.DIARY",
+            "x": 0, "y": 0,
+            "font": "JetBrainsMono",
+            "fontSize": 21,
+            "color": "#2D2D2DB3"
+          },
+          {
+            "type": "text",
+            "content": "{{year}}_COLLECTORS",
+            "x": 0, "y": 0,
+            "font": "JetBrainsMono",
+            "fontSize": 21,
+            "color": "#2D2D2DB3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fancy_share_02",
+    "type": "fancy_share",
+    "name": "Minimal Badge",
+    "isPro": false,
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "background": { "color": "#FFFFFF" },
+    "stamp": {
+      "x": 611, "y": 1000,
+      "maxWidth": 374, "maxHeight": 491,
+      "rotation": -2,
+      "shadowOffsetX": 1, "shadowOffsetY": 3
+    },
+    "elements": [
+      {
+        "type": "image",
+        "imageAsset": "T1BadgeBorders",
+        "x": 360, "y": 755,
+        "width": 282, "height": 102,
+        "rotation": -5
+      },
+      {
+        "type": "image",
+        "imageAsset": "T1FragmentTitle",
+        "x": 188, "y": 1798,
+        "width": 211
+      },
+      {
+        "type": "image",
+        "imageAsset": "T1MetaTextLeft",
+        "x": 501, "y": 1801,
+        "width": 274
+      },
+      {
+        "type": "group",
+        "layout": "vstack",
+        "alignment": "leading",
+        "x": 830, "y": 1801,
+        "spacing": 2,
+        "children": [
+          {
+            "type": "text",
+            "content": "JOIN_THE_SYSTEM",
+            "x": 0, "y": 0,
+            "font": "JetBrainsMono",
+            "fontSize": 21,
+            "color": "#2D2D2DB3"
+          },
+          {
+            "type": "text",
+            "content": "@FRAGMENT.DIARY",
+            "x": 0, "y": 0,
+            "font": "JetBrainsMono",
+            "fontSize": 21,
+            "color": "#2D2D2DB3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fancy_share_03",
+    "type": "fancy_share",
+    "name": "One Day With Me",
+    "isPro": true,
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "background": { "color": "#FFFFFF" },
+    "stamp": {
+      "x": 312, "y": 1100,
+      "maxWidth": 461, "maxHeight": 605,
+      "rotation": -6,
+      "shadowOffsetX": 1, "shadowOffsetY": 3
+    },
+    "elements": [
+      {
+        "type": "group",
+        "layout": "zstack",
+        "x": 620, "y": 530,
+        "width": 500, "height": 300,
+        "rotation": 1,
+        "children": [
+          {
+            "type": "image",
+            "imageAsset": "T3OneDayWith",
+            "x": 0, "y": 0,
+            "width": 447
+          },
+          {
+            "type": "image",
+            "imageAsset": "T3Me",
+            "x": 0, "y": 0,
+            "width": 74,
+            "offsetX": 30, "offsetY": -25
+          },
+          {
+            "type": "text",
+            "content": "{{day}}, {{monthCap}}",
+            "x": 0, "y": 0,
+            "font": "JustMeAgainDownHere",
+            "fontSize": 104,
+            "color": "#000000",
+            "offsetX": 10, "offsetY": 68
+          }
+        ]
+      },
+      {
+        "type": "image",
+        "imageAsset": "T1BadgeBorders",
+        "x": 575, "y": 1348,
+        "width": 282, "height": 102,
+        "rotation": -5
+      },
+      {
+        "type": "image",
+        "imageAsset": "T1FragmentTitle",
+        "x": 188, "y": 1798,
+        "width": 211
+      },
+      {
+        "type": "image",
+        "imageAsset": "T1MetaTextLeft",
+        "x": 501, "y": 1801,
+        "width": 274
+      },
+      {
+        "type": "group",
+        "layout": "vstack",
+        "alignment": "leading",
+        "x": 830, "y": 1801,
+        "spacing": 2,
+        "children": [
+          {
+            "type": "text",
+            "content": "JOIN_THE_SYSTEM",
+            "x": 0, "y": 0,
+            "font": "JetBrainsMono",
+            "fontSize": 21,
+            "color": "#2D2D2DB3"
+          },
+          {
+            "type": "text",
+            "content": "@FRAGMENT.DIARY",
+            "x": 0, "y": 0,
+            "font": "JetBrainsMono",
+            "fontSize": 21,
+            "color": "#2D2D2DB3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fancy_share_04",
+    "type": "fancy_share",
+    "name": "Note Card",
+    "isPro": true,
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "legacyViewName": "ShareTemplate4",
+    "background": { "color": "#FFFFFF" },
+    "elements": []
+  },
+  {
+    "id": "fancy_share_05",
+    "type": "fancy_share",
+    "name": "Clean Date",
+    "isPro": true,
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "background": { "color": "#FFFFFF" },
+    "stamp": {
+      "x": 540, "y": 947,
+      "maxWidth": 636, "maxHeight": 834,
+      "rotation": -2,
+      "shadowOffsetX": 1, "shadowOffsetY": 3
+    },
+    "elements": [
+      {
+        "type": "image",
+        "imageAsset": "T1FragmentTitle",
+        "x": 540, "y": 337,
+        "width": 211
+      },
+      {
+        "type": "text",
+        "content": "{{day}}, {{monthCap}}",
+        "x": 572, "y": 1435,
+        "font": "JustMeAgainDownHere",
+        "fontSize": 96,
+        "color": "#000000",
+        "rotation": 1
+      },
+      {
+        "type": "text",
+        "content": "START_YOUR_ARCHIVE",
+        "x": 237, "y": 1832,
+        "font": "JetBrainsMono",
+        "fontSize": 21,
+        "color": "#4C4C4C"
+      },
+      {
+        "type": "text",
+        "content": "JOIN_THE_SYSTEM",
+        "x": 540, "y": 1832,
+        "font": "JetBrainsMono",
+        "fontSize": 21,
+        "color": "#2D2D2DB3"
+      },
+      {
+        "type": "text",
+        "content": "@FRAGMENT.DIARY",
+        "x": 832, "y": 1832,
+        "font": "JetBrainsMono",
+        "fontSize": 21,
+        "color": "#2D2D2DB3"
+      }
+    ]
+  }
+]
