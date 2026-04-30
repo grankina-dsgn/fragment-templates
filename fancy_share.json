@@ -96,5 +96,30 @@
         "placeholder": "YOUR TEXT"
       }
     ]
+  },
+  {
+    "id": "fancy_share_07",
+    "type": "fancy_share",
+    "name": "Note To Self",
+    "isPro": false,
+    "published": true,
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "legacyViewName": "ShareTemplate7",
+    "background": { "color": "#FFFFFF" },
+    "elements": [
+      {
+        "type": "text",
+        "content": "I choose consistency over perfection",
+        "x": 0.63,
+        "y": 0.604,
+        "font": "JustMeAgainDownHere",
+        "fontSize": 96,
+        "color": "#262626",
+        "alignment": "center",
+        "editable": true,
+        "placeholder": "Your note..."
+      }
+    ]
   }
 ]
