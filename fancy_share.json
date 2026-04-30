@@ -67,7 +67,7 @@
     "published": true,
     "baseWidth": 1080,
     "baseHeight": 1920,
-    "background": { "color": "#FFFBEF", "imageAsset": "T6Background", "imageOpacity": 0.6 },
+    "background": { "color": "#FFFBEF", "imageAsset": "T6Background", "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T6Background.png", "imageOpacity": 0.6 },
     "stamp": {
       "x": 543,
       "y": 1040,
@@ -135,7 +135,7 @@
     "published": true,
     "baseWidth": 1080,
     "baseHeight": 1920,
-    "background": { "color": "#FFFFFF", "imageAsset": "T7Background", "imageOpacity": 0.6 },
+    "background": { "color": "#FFFFFF", "imageAsset": "T7Background", "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T7Background.png", "imageOpacity": 0.6 },
     "stamp": {
       "x": 362,
       "y": 920,
@@ -195,7 +195,7 @@
     "published": true,
     "baseWidth": 1080,
     "baseHeight": 1920,
-    "background": { "color": "#FFFFFF", "imageAsset": "T8Background" },
+    "background": { "color": "#FFFFFF", "imageAsset": "T8Background", "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T8Background.png" },
     "originalPhoto": {
       "x": 540,
       "y": 549,
@@ -246,6 +246,87 @@
         "fontWeight": "bold",
         "color": "#272727",
         "textAlign": "center"
+      }
+    ]
+  },
+  {
+    "id": "fancy_share_09",
+    "type": "fancy_share",
+    "name": "My Day",
+    "isPro": true,
+    "published": true,
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "background": { "color": "#F5F4F0", "imageAsset": "T9Background", "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T9Background.png" },
+    "stamp": {
+      "x": 524,
+      "y": 880,
+      "maxWidth": 190,
+      "maxHeight": 250,
+      "rotation": -6.19,
+      "shadowOffsetX": 1,
+      "shadowOffsetY": 3,
+      "shadowOpacity": 0.08,
+      "showOutline": true
+    },
+    "elements": [
+      {
+        "type": "image",
+        "imageAsset": "T9Stamp",
+        "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T9Stamp.svg",
+        "x": 597,
+        "y": 531,
+        "width": 262,
+        "height": 173,
+        "rotation": -14.07
+      },
+      {
+        "type": "image",
+        "imageAsset": "T9Plane",
+        "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T9Plane.svg",
+        "x": 738,
+        "y": 697,
+        "width": 67,
+        "height": 67
+      },
+      {
+        "type": "text",
+        "content": "( MY DAY )",
+        "x": 540,
+        "y": 1274,
+        "font": "JetBrainsMono",
+        "fontSize": 64,
+        "fontWeight": "bold",
+        "color": "#212121",
+        "textAlign": "center",
+        "editable": true,
+        "editKey": "title",
+        "placeholder": "( MY DAY )"
+      },
+      {
+        "type": "text",
+        "content": "I'VE NEVER NOTICE THIS FLOWERS NEAR MY HOUSE",
+        "x": 540,
+        "y": 1370,
+        "width": 376,
+        "font": "JetBrainsMono",
+        "fontSize": 21,
+        "color": "#212121",
+        "textAlign": "center",
+        "lineHeight": 1.1,
+        "editable": true,
+        "editKey": "description",
+        "placeholder": "I'VE NEVER NOTICE THIS FLOWERS NEAR MY HOUSE",
+        "maxLines": 5
+      },
+      {
+        "type": "image",
+        "imageAsset": "T9PostalStamp",
+        "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T9PostalStamp.svg",
+        "x": -37,
+        "y": 1719,
+        "width": 328,
+        "height": 242
       }
     ]
   }
