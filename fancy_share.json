@@ -67,33 +67,63 @@
     "published": true,
     "baseWidth": 1080,
     "baseHeight": 1920,
-    "legacyViewName": "ShareTemplate6",
-    "background": { "color": "#FFFBEF" },
+    "background": { "color": "#FFFBEF", "imageAsset": "T6Background", "imageOpacity": 0.6 },
+    "stamp": {
+      "x": 543,
+      "y": 1040,
+      "maxWidth": 180,
+      "maxHeight": 240,
+      "rotation": -4.58,
+      "shadowOffsetX": 1,
+      "shadowOffsetY": 3,
+      "shadowOpacity": 0.1,
+      "showOutline": true
+    },
     "elements": [
       {
-        "type": "text",
-        "content": "MY DAY",
-        "x": 0.5,
-        "y": 0.247,
-        "font": "JetBrainsMono",
-        "fontSize": 64,
-        "fontWeight": "bold",
-        "color": "#272727",
+        "type": "group",
+        "layout": "vstack",
+        "x": 540,
+        "y": 475,
+        "spacing": -8,
         "alignment": "center",
-        "editable": true,
-        "placeholder": "YOUR TEXT"
+        "children": [
+          {
+            "type": "text",
+            "content": "MY DAY",
+            "x": 0,
+            "y": 0,
+            "font": "JetBrainsMono",
+            "fontSize": 64,
+            "fontWeight": "bold",
+            "color": "#272727",
+            "editable": true,
+            "editKey": "line1",
+            "placeholder": "MY DAY"
+          },
+          {
+            "type": "text",
+            "content": "SO FAR...",
+            "x": 0,
+            "y": 0,
+            "font": "JetBrainsMono",
+            "fontSize": 64,
+            "color": "#272727",
+            "editable": true,
+            "editKey": "line2",
+            "placeholder": "SO FAR..."
+          }
+        ]
       },
       {
         "type": "text",
-        "content": "SO FAR...",
-        "x": 0.5,
-        "y": 0.282,
+        "content": "[ DAILY FRAGMENT ]",
+        "x": 540,
+        "y": 1790,
         "font": "JetBrainsMono",
-        "fontSize": 64,
-        "color": "#272727",
-        "alignment": "center",
-        "editable": true,
-        "placeholder": "YOUR TEXT"
+        "fontSize": 21,
+        "color": "#252525",
+        "textAlign": "center"
       }
     ]
   },
@@ -105,20 +135,55 @@
     "published": true,
     "baseWidth": 1080,
     "baseHeight": 1920,
-    "legacyViewName": "ShareTemplate7",
-    "background": { "color": "#FFFFFF" },
+    "background": { "color": "#FFFFFF", "imageAsset": "T7Background", "imageOpacity": 0.6 },
+    "stamp": {
+      "x": 362,
+      "y": 920,
+      "maxWidth": 340,
+      "maxHeight": 440,
+      "rotation": -6.19,
+      "shadowOffsetX": 2,
+      "shadowOffsetY": 4,
+      "shadowOpacity": 0.08,
+      "showOutline": false
+    },
     "elements": [
       {
         "type": "text",
+        "content": "[ NOTE TO SELF ]",
+        "x": 540,
+        "y": 400,
+        "font": "JetBrainsMono",
+        "fontSize": 21,
+        "color": "#252525",
+        "textAlign": "center"
+      },
+      {
+        "type": "text",
         "content": "I choose consistency over perfection",
-        "x": 0.63,
-        "y": 0.604,
+        "x": 684,
+        "y": 1280,
+        "width": 520,
         "font": "JustMeAgainDownHere",
+        "altFont": "Caveat-Regular",
         "fontSize": 96,
         "color": "#262626",
-        "alignment": "center",
+        "textAlign": "center",
+        "lineHeight": 0.8,
+        "rotation": -11,
         "editable": true,
-        "placeholder": "Your note..."
+        "editKey": "note",
+        "placeholder": "I choose consistency over perfection"
+      },
+      {
+        "type": "text",
+        "content": "WITH LOVE",
+        "x": 540,
+        "y": 1832,
+        "font": "JetBrainsMono",
+        "fontSize": 21,
+        "color": "#252525",
+        "textAlign": "center"
       }
     ]
   }
