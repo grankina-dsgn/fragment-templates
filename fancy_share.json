@@ -95,7 +95,9 @@
             "x": 0, "y": 0,
             "font": "JetBrainsMono",
             "fontSize": 21,
-            "color": "#2D2D2DB3"
+            "color": "#2D2D2DB3",
+            "editable": true,
+            "placeholder": "Your text here"
           },
           {
             "type": "text",
@@ -111,7 +113,9 @@
             "x": 0, "y": 0,
             "font": "JetBrainsMono",
             "fontSize": 21,
-            "color": "#2D2D2DB3"
+            "color": "#2D2D2DB3",
+            "editable": true,
+            "placeholder": "Your text here"
           }
         ]
       }
