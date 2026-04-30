@@ -186,5 +186,67 @@
         "textAlign": "center"
       }
     ]
+  },
+  {
+    "id": "fancy_share_08",
+    "type": "fancy_share",
+    "name": "The Art of Noticing",
+    "isPro": true,
+    "published": true,
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "background": { "color": "#FFFFFF", "imageAsset": "T8Background" },
+    "originalPhoto": {
+      "x": 540,
+      "y": 549,
+      "width": 1080,
+      "height": 1098
+    },
+    "stamp": {
+      "x": 780,
+      "y": 1359,
+      "maxWidth": 118,
+      "maxHeight": 155,
+      "rotation": 0,
+      "shadowOffsetX": 1,
+      "shadowOffsetY": 2,
+      "shadowOpacity": 0.08,
+      "showOutline": true
+    },
+    "elements": [
+      {
+        "type": "text",
+        "content": "THE",
+        "x": 628,
+        "y": 1247,
+        "font": "JetBrainsMono",
+        "fontSize": 36,
+        "fontWeight": "bold",
+        "color": "#272727",
+        "textAlign": "center"
+      },
+      {
+        "type": "text",
+        "content": "(  ART  )",
+        "x": 265,
+        "y": 1569,
+        "font": "JetBrainsMono",
+        "fontSize": 36,
+        "fontWeight": "bold",
+        "color": "#272727",
+        "textAlign": "center"
+      },
+      {
+        "type": "text",
+        "content": "OF NOTICING",
+        "x": 856,
+        "y": 1731,
+        "font": "JetBrainsMono",
+        "fontSize": 36,
+        "fontWeight": "bold",
+        "color": "#272727",
+        "textAlign": "center"
+      }
+    ]
   }
 ]
