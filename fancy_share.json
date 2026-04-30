@@ -8,7 +8,9 @@
     "baseWidth": 1080,
     "baseHeight": 1920,
     "legacyViewName": "ShareTemplate1",
-    "background": { "color": "#FFFFFF" },
+    "background": {
+      "color": "#FFFFFF"
+    },
     "elements": []
   },
   {
@@ -20,7 +22,9 @@
     "baseWidth": 1080,
     "baseHeight": 1920,
     "legacyViewName": "ShareTemplate2",
-    "background": { "color": "#FFFFFF" },
+    "background": {
+      "color": "#FFFFFF"
+    },
     "elements": []
   },
   {
@@ -32,7 +36,9 @@
     "baseWidth": 1080,
     "baseHeight": 1920,
     "legacyViewName": "ShareTemplate3",
-    "background": { "color": "#FFFFFF" },
+    "background": {
+      "color": "#FFFFFF"
+    },
     "elements": []
   },
   {
@@ -44,7 +50,9 @@
     "baseWidth": 1080,
     "baseHeight": 1920,
     "legacyViewName": "ShareTemplate4",
-    "background": { "color": "#FFFFFF" },
+    "background": {
+      "color": "#FFFFFF"
+    },
     "elements": []
   },
   {
@@ -56,7 +64,9 @@
     "baseWidth": 1080,
     "baseHeight": 1920,
     "legacyViewName": "ShareTemplate5",
-    "background": { "color": "#FFFFFF" },
+    "background": {
+      "color": "#FFFFFF"
+    },
     "elements": []
   },
   {
@@ -67,7 +77,12 @@
     "published": true,
     "baseWidth": 1080,
     "baseHeight": 1920,
-    "background": { "color": "#FFFBEF", "imageAsset": "T6Background", "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T6Background.png", "imageOpacity": 0.6 },
+    "background": {
+      "color": "#FFFBEF",
+      "imageAsset": "T6Background",
+      "imageOpacity": 0.6,
+      "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T6Background.png"
+    },
     "stamp": {
       "x": 543,
       "y": 1040,
@@ -135,7 +150,12 @@
     "published": true,
     "baseWidth": 1080,
     "baseHeight": 1920,
-    "background": { "color": "#FFFFFF", "imageAsset": "T7Background", "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T7Background.png", "imageOpacity": 0.6 },
+    "background": {
+      "color": "#FFFFFF",
+      "imageAsset": "T7Background",
+      "imageOpacity": 0.6,
+      "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T7Background.png"
+    },
     "stamp": {
       "x": 362,
       "y": 920,
@@ -195,7 +215,11 @@
     "published": true,
     "baseWidth": 1080,
     "baseHeight": 1920,
-    "background": { "color": "#FFFFFF", "imageAsset": "T8Background", "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T8Background.png" },
+    "background": {
+      "color": "#FFFFFF",
+      "imageAsset": "T8Background",
+      "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T8Background.png"
+    },
     "originalPhoto": {
       "x": 540,
       "y": 549,
@@ -257,12 +281,16 @@
     "published": true,
     "baseWidth": 1080,
     "baseHeight": 1920,
-    "background": { "color": "#F5F4F0", "imageAsset": "T9Background", "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T9Background.png" },
+    "background": {
+      "color": "#F5F4F0",
+      "imageAsset": "T9Background",
+      "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T9Background.png"
+    },
     "stamp": {
       "x": 524,
-      "y": 880,
-      "maxWidth": 190,
-      "maxHeight": 250,
+      "y": 856,
+      "maxWidth": 374,
+      "maxHeight": 491,
       "rotation": -6.19,
       "shadowOffsetX": 1,
       "shadowOffsetY": 3,
@@ -273,21 +301,21 @@
       {
         "type": "image",
         "imageAsset": "T9Stamp",
-        "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T9Stamp.svg",
-        "x": 597,
-        "y": 531,
+        "x": 640,
+        "y": 590,
         "width": 262,
         "height": 173,
-        "rotation": -14.07
+        "rotation": -14.07,
+        "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T9Stamp.svg"
       },
       {
         "type": "image",
         "imageAsset": "T9Plane",
-        "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T9Plane.svg",
-        "x": 738,
-        "y": 697,
+        "x": 772,
+        "y": 730,
         "width": 67,
-        "height": 67
+        "height": 67,
+        "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T9Plane.svg"
       },
       {
         "type": "text",
@@ -322,11 +350,83 @@
       {
         "type": "image",
         "imageAsset": "T9PostalStamp",
-        "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T9PostalStamp.svg",
         "x": -37,
         "y": 1719,
         "width": 328,
-        "height": 242
+        "height": 242,
+        "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T9PostalStamp.svg"
+      }
+    ]
+  },
+  {
+    "id": "fancy_share_10",
+    "type": "fancy_share",
+    "name": "Every Day",
+    "isPro": true,
+    "published": true,
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "background": {
+      "color": "#000000"
+    },
+    "originalPhoto": {
+      "x": 540,
+      "y": 960,
+      "width": 1080,
+      "height": 1920
+    },
+    "stamp": {
+      "x": 928,
+      "y": 1337,
+      "maxWidth": 118,
+      "maxHeight": 155,
+      "rotation": 0,
+      "shadowOffsetX": 1,
+      "shadowOffsetY": 2,
+      "shadowOpacity": 0.08,
+      "showOutline": true
+    },
+    "elements": [
+      {
+        "type": "image",
+        "imageAsset": "T10Overlay",
+        "x": 540,
+        "y": 960,
+        "width": 1080,
+        "height": 1920,
+        "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/T10Overlay.png"
+      },
+      {
+        "type": "text",
+        "content": "NOT EVERY DAY CAN BE GOOD",
+        "x": 540,
+        "y": 1081,
+        "width": 614,
+        "font": "JetBrainsMono",
+        "fontSize": 32,
+        "fontWeight": "bold",
+        "color": "#FFFFFF",
+        "textAlign": "center",
+        "lineHeight": 1.1,
+        "editable": true,
+        "editKey": "line1",
+        "placeholder": "NOT EVERY DAY CAN BE GOOD"
+      },
+      {
+        "type": "text",
+        "content": "BUT THERE IS A GOOD IN EVERY DAY",
+        "x": 540,
+        "y": 1806,
+        "width": 704,
+        "font": "JetBrainsMono",
+        "fontSize": 32,
+        "fontWeight": "bold",
+        "color": "#000000",
+        "textAlign": "center",
+        "lineHeight": 1.1,
+        "editable": true,
+        "editKey": "line2",
+        "placeholder": "BUT THERE IS A GOOD IN EVERY DAY"
       }
     ]
   }
