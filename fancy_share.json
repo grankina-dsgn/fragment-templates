@@ -53,5 +53,42 @@
     "legacyViewName": "ShareTemplate5",
     "background": { "color": "#FFFFFF" },
     "elements": []
+  },
+  {
+    "id": "fancy_share_06",
+    "type": "fancy_share",
+    "name": "My Day So Far",
+    "isPro": false,
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "legacyViewName": "ShareTemplate6",
+    "background": { "color": "#FFFBEF" },
+    "elements": [
+      {
+        "type": "text",
+        "content": "MY DAY",
+        "x": 0.5,
+        "y": 0.247,
+        "font": "JetBrainsMono",
+        "fontSize": 64,
+        "fontWeight": "bold",
+        "color": "#272727",
+        "alignment": "center",
+        "editable": true,
+        "placeholder": "YOUR TEXT"
+      },
+      {
+        "type": "text",
+        "content": "SO FAR...",
+        "x": 0.5,
+        "y": 0.282,
+        "font": "JetBrainsMono",
+        "fontSize": 64,
+        "color": "#272727",
+        "alignment": "center",
+        "editable": true,
+        "placeholder": "YOUR TEXT"
+      }
+    ]
   }
 ]
