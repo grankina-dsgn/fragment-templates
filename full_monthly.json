@@ -43,11 +43,7 @@
     "published": true,
     "baseWidth": 1080,
     "baseHeight": 1920,
-    "background": {
-      "color": "#FFFFFF",
-      "imageAsset": "MSBackground",
-      "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/MSBackground.png"
-    },
+    "background": { "color": "#FFFFFF" },
     "stamps": [
       { "index": 0, "x": 432, "y": 296, "maxWidth": 193, "maxHeight": 253, "rotation": 4.99, "showOutline": true },
       { "index": 1, "x": 628, "y": 399, "maxWidth": 193, "maxHeight": 253, "rotation": -14.03, "showOutline": true },
