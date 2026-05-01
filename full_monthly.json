@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "id": "full_monthly_01",
+    "type": "full_monthly",
+    "name": "Scattered",
+    "isPro": true,
+    "published": true,
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "background": { "color": "#FCFAF0" },
+    "legacyViewName": "FullMonthlyTemplate1",
+    "elements": []
+  },
+  {
+    "id": "full_monthly_02",
+    "type": "full_monthly",
+    "name": "Grid",
+    "isPro": true,
+    "published": true,
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "background": { "color": "#FCFAF0" },
+    "legacyViewName": "FullMonthlyTemplate2",
+    "elements": []
+  },
+  {
+    "id": "full_monthly_03",
+    "type": "full_monthly",
+    "name": "Collage",
+    "isPro": true,
+    "published": true,
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "background": { "color": "#FCFAF0" },
+    "legacyViewName": "FullMonthlyTemplate3",
+    "elements": []
+  }
+]
