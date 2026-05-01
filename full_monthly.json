@@ -34,5 +34,88 @@
     "background": { "color": "#FCFAF0" },
     "legacyViewName": "FullMonthlyTemplate3",
     "elements": []
+  },
+  {
+    "id": "full_monthly_04",
+    "type": "full_monthly",
+    "name": "My Month Lately",
+    "isPro": true,
+    "published": true,
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "background": {
+      "color": "#FFFFFF",
+      "imageAsset": "MSBackground",
+      "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/MSBackground.png"
+    },
+    "stamps": [
+      { "index": 0, "x": 432, "y": 296, "maxWidth": 193, "maxHeight": 253, "rotation": 4.99, "showOutline": true },
+      { "index": 1, "x": 628, "y": 399, "maxWidth": 193, "maxHeight": 253, "rotation": -14.03, "showOutline": true },
+      { "index": 2, "x": 754, "y": 371, "maxWidth": 193, "maxHeight": 253, "rotation": 4.99, "showOutline": true },
+      { "index": 3, "x": 242, "y": 471, "maxWidth": 193, "maxHeight": 253, "rotation": -5.84, "showOutline": true },
+      { "index": 4, "x": 421, "y": 535, "maxWidth": 193, "maxHeight": 253, "rotation": -4.58, "showOutline": true },
+      { "index": 5, "x": 790, "y": 549, "maxWidth": 193, "maxHeight": 253, "rotation": -14.03, "showOutline": true },
+      { "index": 6, "x": 595, "y": 587, "maxWidth": 193, "maxHeight": 253, "rotation": 7.59, "showOutline": true },
+      { "index": 7, "x": 341, "y": 695, "maxWidth": 193, "maxHeight": 253, "rotation": -14.03, "showOutline": true },
+      { "index": 8, "x": 869, "y": 747, "maxWidth": 193, "maxHeight": 253, "rotation": 9.22, "showOutline": true },
+      { "index": 9, "x": 707, "y": 750, "maxWidth": 193, "maxHeight": 253, "rotation": 7.59, "showOutline": true },
+      { "index": 10, "x": 238, "y": 755, "maxWidth": 193, "maxHeight": 253, "rotation": -14.03, "showOutline": true },
+      { "index": 11, "x": 418, "y": 767, "maxWidth": 193, "maxHeight": 253, "rotation": 5.07, "showOutline": true },
+      { "index": 12, "x": 540, "y": 794, "maxWidth": 193, "maxHeight": 253, "rotation": -2.93, "showOutline": true },
+      { "index": 13, "x": 439, "y": 959, "maxWidth": 193, "maxHeight": 253, "rotation": -8.81, "showOutline": true },
+      { "index": 14, "x": 624, "y": 972, "maxWidth": 193, "maxHeight": 253, "rotation": 3.03, "showOutline": true },
+      { "index": 15, "x": 763, "y": 990, "maxWidth": 193, "maxHeight": 253, "rotation": -14.03, "showOutline": true },
+      { "index": 16, "x": 342, "y": 1028, "maxWidth": 193, "maxHeight": 253, "rotation": 6.91, "showOutline": true },
+      { "index": 17, "x": 265, "y": 1107, "maxWidth": 193, "maxHeight": 253, "rotation": -5.84, "showOutline": true },
+      { "index": 18, "x": 897, "y": 1160, "maxWidth": 193, "maxHeight": 253, "rotation": 9.22, "showOutline": true },
+      { "index": 19, "x": 565, "y": 1165, "maxWidth": 193, "maxHeight": 253, "rotation": 6.91, "showOutline": true },
+      { "index": 20, "x": 746, "y": 1188, "maxWidth": 193, "maxHeight": 253, "rotation": 6.91, "showOutline": true },
+      { "index": 21, "x": 426, "y": 1200, "maxWidth": 193, "maxHeight": 253, "rotation": 6.91, "showOutline": true },
+      { "index": 22, "x": 262, "y": 1269, "maxWidth": 193, "maxHeight": 253, "rotation": -5.84, "showOutline": true },
+      { "index": 23, "x": 656, "y": 1302, "maxWidth": 193, "maxHeight": 253, "rotation": 6.91, "showOutline": true },
+      { "index": 24, "x": 870, "y": 1381, "maxWidth": 193, "maxHeight": 253, "rotation": -4.87, "showOutline": true },
+      { "index": 25, "x": 320, "y": 1490, "maxWidth": 193, "maxHeight": 253, "rotation": 18.33, "showOutline": true },
+      { "index": 26, "x": 511, "y": 1493, "maxWidth": 193, "maxHeight": 253, "rotation": -4.87, "showOutline": true },
+      { "index": 27, "x": 715, "y": 1513, "maxWidth": 193, "maxHeight": 253, "rotation": -4.87, "showOutline": true },
+      { "index": 28, "x": 498, "y": 1611, "maxWidth": 193, "maxHeight": 253, "rotation": 4.99, "showOutline": true },
+      { "index": 29, "x": 340, "y": 1600, "maxWidth": 193, "maxHeight": 253, "rotation": -6.5, "showOutline": true },
+      { "index": 30, "x": 660, "y": 1620, "maxWidth": 193, "maxHeight": 253, "rotation": 3.2, "showOutline": true }
+    ],
+    "elements": [
+      {
+        "type": "text",
+        "content": "MY MONTH",
+        "x": 193,
+        "y": 925,
+        "font": "JetBrainsMono-Bold",
+        "fontWeight": "bold",
+        "fontSize": 48,
+        "color": "#272727",
+        "textAlign": "center",
+        "aboveStamp": true
+      },
+      {
+        "type": "text",
+        "content": "LATELY",
+        "x": 908,
+        "y": 925,
+        "font": "JetBrainsMono-Bold",
+        "fontWeight": "bold",
+        "fontSize": 48,
+        "color": "#272727",
+        "textAlign": "center",
+        "aboveStamp": true
+      },
+      {
+        "type": "text",
+        "content": "( COLLECTED      DAYS      IN     FRAGMENTS )",
+        "x": 540,
+        "y": 1821,
+        "font": "JetBrainsMono-Regular",
+        "fontSize": 18,
+        "color": "#4E4E4E",
+        "textAlign": "center"
+      }
+    ]
   }
 ]

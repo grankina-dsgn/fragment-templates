@@ -34,5 +34,72 @@
     "background": { "color": "#FCFAF0" },
     "legacyViewName": "HalfMonthlyTemplate3",
     "elements": []
+  },
+  {
+    "id": "half_monthly_04",
+    "type": "half_monthly",
+    "name": "My Life Lately",
+    "isPro": true,
+    "published": true,
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "background": {
+      "color": "#FFFFFF",
+      "imageAsset": "MSBackground",
+      "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/MSBackground.png"
+    },
+    "stamps": [
+      { "index": 0, "x": 421, "y": 535, "maxWidth": 193, "maxHeight": 253, "rotation": -4.58, "showOutline": true },
+      { "index": 1, "x": 595, "y": 587, "maxWidth": 193, "maxHeight": 253, "rotation": 7.59, "showOutline": true },
+      { "index": 2, "x": 341, "y": 695, "maxWidth": 193, "maxHeight": 253, "rotation": -14.03, "showOutline": true },
+      { "index": 3, "x": 707, "y": 750, "maxWidth": 193, "maxHeight": 253, "rotation": 7.59, "showOutline": true },
+      { "index": 4, "x": 418, "y": 767, "maxWidth": 193, "maxHeight": 253, "rotation": 5.07, "showOutline": true },
+      { "index": 5, "x": 540, "y": 794, "maxWidth": 193, "maxHeight": 253, "rotation": -2.93, "showOutline": true },
+      { "index": 6, "x": 439, "y": 959, "maxWidth": 193, "maxHeight": 253, "rotation": -8.81, "showOutline": true },
+      { "index": 7, "x": 624, "y": 972, "maxWidth": 193, "maxHeight": 253, "rotation": 3.03, "showOutline": true },
+      { "index": 8, "x": 746, "y": 987, "maxWidth": 193, "maxHeight": 253, "rotation": -14.03, "showOutline": true },
+      { "index": 9, "x": 342, "y": 1028, "maxWidth": 193, "maxHeight": 253, "rotation": 6.91, "showOutline": true },
+      { "index": 10, "x": 565, "y": 1165, "maxWidth": 193, "maxHeight": 253, "rotation": 6.91, "showOutline": true },
+      { "index": 11, "x": 746, "y": 1188, "maxWidth": 193, "maxHeight": 253, "rotation": 6.91, "showOutline": true },
+      { "index": 12, "x": 426, "y": 1200, "maxWidth": 193, "maxHeight": 253, "rotation": 6.91, "showOutline": true },
+      { "index": 13, "x": 656, "y": 1302, "maxWidth": 193, "maxHeight": 253, "rotation": 6.91, "showOutline": true },
+      { "index": 14, "x": 473, "y": 1372, "maxWidth": 193, "maxHeight": 253, "rotation": 6.91, "showOutline": true }
+    ],
+    "elements": [
+      {
+        "type": "text",
+        "content": "MY LIFE",
+        "x": 212,
+        "y": 925,
+        "font": "JetBrainsMono-Bold",
+        "fontWeight": "bold",
+        "fontSize": 48,
+        "color": "#272727",
+        "textAlign": "center",
+        "aboveStamp": true
+      },
+      {
+        "type": "text",
+        "content": "LATELY",
+        "x": 889,
+        "y": 925,
+        "font": "JetBrainsMono-Bold",
+        "fontWeight": "bold",
+        "fontSize": 48,
+        "color": "#272727",
+        "textAlign": "center",
+        "aboveStamp": true
+      },
+      {
+        "type": "text",
+        "content": "( COLLECTED      DAYS      IN     FRAGMENTS )",
+        "x": 540,
+        "y": 1821,
+        "font": "JetBrainsMono-Regular",
+        "fontSize": 18,
+        "color": "#4E4E4E",
+        "textAlign": "center"
+      }
+    ]
   }
 ]
