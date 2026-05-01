@@ -685,7 +685,8 @@
         "lineHeight": 1.0,
         "editable": true,
         "editKey": "text3",
-        "placeholder": "IT WAS CRAZY\n\nBUT IT WORTH IT"
+        "placeholder": "IT WAS CRAZY\n\nBUT IT WORTH IT",
+        "aboveStamp": true
       },
       {
         "type": "text",
