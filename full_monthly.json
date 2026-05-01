@@ -113,5 +113,81 @@
         "textAlign": "center"
       }
     ]
+  },
+  {
+    "id": "full_monthly_05",
+    "type": "full_monthly",
+    "name": "One Month Inspiration",
+    "isPro": true,
+    "published": true,
+    "baseWidth": 1080,
+    "baseHeight": 1920,
+    "background": { "color": "#FFFFFF" },
+    "stamps": [
+      { "index": 0, "x": 596, "y": 723, "maxWidth": 147, "maxHeight": 193, "rotation": 0.14, "showOutline": true },
+      { "index": 1, "x": 380, "y": 760, "maxWidth": 147, "maxHeight": 193, "rotation": -6.2, "showOutline": true },
+      { "index": 2, "x": 825, "y": 790, "maxWidth": 147, "maxHeight": 193, "rotation": 7.06, "showOutline": true },
+      { "index": 3, "x": 200, "y": 830, "maxWidth": 147, "maxHeight": 193, "rotation": -11.69, "showOutline": true },
+      { "index": 4, "x": 500, "y": 870, "maxWidth": 147, "maxHeight": 193, "rotation": 7.88, "showOutline": true },
+      { "index": 5, "x": 700, "y": 900, "maxWidth": 147, "maxHeight": 193, "rotation": -3.5, "showOutline": true },
+      { "index": 6, "x": 320, "y": 940, "maxWidth": 147, "maxHeight": 193, "rotation": 4.97, "showOutline": true },
+      { "index": 7, "x": 880, "y": 960, "maxWidth": 147, "maxHeight": 193, "rotation": -0.43, "showOutline": true },
+      { "index": 8, "x": 540, "y": 1010, "maxWidth": 147, "maxHeight": 193, "rotation": -8.81, "showOutline": true },
+      { "index": 9, "x": 160, "y": 1050, "maxWidth": 147, "maxHeight": 193, "rotation": 7.78, "showOutline": true },
+      { "index": 10, "x": 750, "y": 1070, "maxWidth": 147, "maxHeight": 193, "rotation": -15.33, "showOutline": true },
+      { "index": 11, "x": 420, "y": 1100, "maxWidth": 147, "maxHeight": 193, "rotation": -5.65, "showOutline": true },
+      { "index": 12, "x": 600, "y": 1150, "maxWidth": 147, "maxHeight": 193, "rotation": 9.4, "showOutline": true },
+      { "index": 13, "x": 260, "y": 1190, "maxWidth": 147, "maxHeight": 193, "rotation": -1.7, "showOutline": true },
+      { "index": 14, "x": 870, "y": 1200, "maxWidth": 147, "maxHeight": 193, "rotation": 6.71, "showOutline": true },
+      { "index": 15, "x": 470, "y": 1260, "maxWidth": 147, "maxHeight": 193, "rotation": -10.87, "showOutline": true },
+      { "index": 16, "x": 700, "y": 1290, "maxWidth": 147, "maxHeight": 193, "rotation": 3.03, "showOutline": true },
+      { "index": 17, "x": 160, "y": 1330, "maxWidth": 147, "maxHeight": 193, "rotation": 8.07, "showOutline": true },
+      { "index": 18, "x": 340, "y": 1370, "maxWidth": 147, "maxHeight": 193, "rotation": -4.87, "showOutline": true },
+      { "index": 19, "x": 850, "y": 1390, "maxWidth": 147, "maxHeight": 193, "rotation": -2.1, "showOutline": true },
+      { "index": 20, "x": 560, "y": 1400, "maxWidth": 147, "maxHeight": 193, "rotation": 11.2, "showOutline": true },
+      { "index": 21, "x": 200, "y": 1470, "maxWidth": 147, "maxHeight": 193, "rotation": -7.5, "showOutline": true },
+      { "index": 22, "x": 730, "y": 1480, "maxWidth": 147, "maxHeight": 193, "rotation": 4.8, "showOutline": true },
+      { "index": 23, "x": 430, "y": 1510, "maxWidth": 147, "maxHeight": 193, "rotation": -9.8, "showOutline": true },
+      { "index": 24, "x": 900, "y": 1530, "maxWidth": 147, "maxHeight": 193, "rotation": 6.3, "showOutline": true },
+      { "index": 25, "x": 300, "y": 1600, "maxWidth": 147, "maxHeight": 193, "rotation": 2.62, "showOutline": true },
+      { "index": 26, "x": 580, "y": 1620, "maxWidth": 147, "maxHeight": 193, "rotation": -4.4, "showOutline": true },
+      { "index": 27, "x": 800, "y": 1650, "maxWidth": 147, "maxHeight": 193, "rotation": 8.95, "showOutline": true },
+      { "index": 28, "x": 160, "y": 1700, "maxWidth": 147, "maxHeight": 193, "rotation": 5.3, "showOutline": true },
+      { "index": 29, "x": 450, "y": 1730, "maxWidth": 147, "maxHeight": 193, "rotation": -1.9, "showOutline": true },
+      { "index": 30, "x": 680, "y": 1760, "maxWidth": 147, "maxHeight": 193, "rotation": 7.6, "showOutline": true }
+    ],
+    "elements": [
+      {
+        "type": "text",
+        "content": "( COLLECTED      DAYS      IN     FRAGMENTS )",
+        "x": 540,
+        "y": 169,
+        "font": "JetBrainsMono-Regular",
+        "fontSize": 18,
+        "color": "#4E4E4E",
+        "textAlign": "center"
+      },
+      {
+        "type": "group",
+        "layout": "vstack",
+        "x": 540,
+        "y": 373,
+        "alignment": "center",
+        "spacing": 0,
+        "children": [
+          { "type": "text", "content": "ONE MONTH", "font": "JetBrainsMono-Bold", "fontWeight": "bold", "fontSize": 48, "color": "#272727", "textAlign": "center", "x": 0, "y": 0 },
+          { "type": "text", "content": "INSPIRATION", "font": "JetBrainsMono-Regular", "fontSize": 48, "color": "#272727", "textAlign": "center", "x": 0, "y": 0 }
+        ]
+      },
+      {
+        "type": "image",
+        "imageAsset": "MSSpiral",
+        "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/MSSpiral.png",
+        "x": 540,
+        "y": 559,
+        "width": 1080,
+        "height": 69
+      }
+    ]
   }
 ]
