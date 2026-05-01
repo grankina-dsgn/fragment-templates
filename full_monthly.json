@@ -200,7 +200,12 @@
     "baseHeight": 1920,
     "background": {
       "color": "#FFFBEF",
-      "imageURL": "https://grankina-dsgn.github.io/fragment-templates/images/MSBg07.png",
+      "imageVariants": {
+        "28": "https://grankina-dsgn.github.io/fragment-templates/images/MSBg07_28.png",
+        "29": "https://grankina-dsgn.github.io/fragment-templates/images/MSBg07_29.png",
+        "30": "https://grankina-dsgn.github.io/fragment-templates/images/MSBg07_30.png",
+        "31": "https://grankina-dsgn.github.io/fragment-templates/images/MSBg07_31.png"
+      },
       "imageOpacity": 1.0
     },
     "stamps": [
